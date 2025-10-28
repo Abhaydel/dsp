@@ -1,0 +1,7 @@
+flask
+flask-jwt-extended
+cryptography
+werkzeug
+datetime
+hashlib
+base64

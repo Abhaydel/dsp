@@ -1,0 +1,2336 @@
+{
+  "scanned_at": "2025-09-10T05:26:36.236081Z",
+  "findings": [
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 124,
+      "snippet": "description=\"Use of insecure randomness (random.random() for security-sensitive use)\",",
+      "rule_id": "R012",
+      "rule_desc": "Use of insecure randomness (random.random() for security-sensitive use)",
+      "severity": "MEDIUM",
+      "suggestion": "Use secrets module or os.urandom for cryptographic randomness."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 105,
+      "snippet": "pattern=r\"http://[^\\s'\\\"<>]+\",",
+      "rule_id": "R009",
+      "rule_desc": "Use of HTTP (not HTTPS) in URLs",
+      "severity": "MEDIUM",
+      "suggestion": "Prefer HTTPS URLs; avoid sending secrets over HTTP."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 91,
+      "snippet": "pattern=r\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 91,
+      "snippet": "pattern=r\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 91,
+      "snippet": "pattern=r\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 91,
+      "snippet": "pattern=r\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 89,
+      "snippet": "description=\"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 89,
+      "snippet": "description=\"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 72,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 72,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 70,
+      "snippet": "\"snippet\": \"description=\\\"Use of weak hashing algorithms (MD5/SHA1)\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 70,
+      "snippet": "\"snippet\": \"description=\\\"Use of weak hashing algorithms (MD5/SHA1)\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 63,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 63,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 61,
+      "snippet": "\"snippet\": \"description=\\\"Use of weak hashing algorithms (MD5/SHA1)\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 61,
+      "snippet": "\"snippet\": \"description=\\\"Use of weak hashing algorithms (MD5/SHA1)\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 54,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 54,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 52,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 52,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 52,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 52,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 45,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 45,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 43,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 43,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 43,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 43,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 36,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 36,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 34,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 34,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 34,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 34,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 27,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 27,
+      "snippet": "\"rule_desc\": \"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 25,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 25,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 25,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 25,
+      "snippet": "\"snippet\": \"pattern=r\\\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\",\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 16,
+      "snippet": "\"snippet\": \"pattern=r\\\"http://[^\\\\s'\\\\\\\"<>]+\\\",\",",
+      "rule_id": "R009",
+      "rule_desc": "Use of HTTP (not HTTPS) in URLs",
+      "severity": "MEDIUM",
+      "suggestion": "Prefer HTTPS URLs; avoid sending secrets over HTTP."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 9,
+      "snippet": "\"rule_desc\": \"Use of insecure randomness (random.random() for security-sensitive use)\",",
+      "rule_id": "R012",
+      "rule_desc": "Use of insecure randomness (random.random() for security-sensitive use)",
+      "severity": "MEDIUM",
+      "suggestion": "Use secrets module or os.urandom for cryptographic randomness."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 7,
+      "snippet": "\"snippet\": \"description=\\\"Use of insecure randomness (random.random() for security-sensitive use)\\\",\",",
+      "rule_id": "R012",
+      "rule_desc": "Use of insecure randomness (random.random() for security-sensitive use)",
+      "severity": "MEDIUM",
+      "suggestion": "Use secrets module or os.urandom for cryptographic randomness."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 44,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,7,\"\"\"snippet\"\": \"\"description=\\\"\"Use of insecure randomness (random.random() for security-sensitive use)\\\"\",\"\",\",R012,Use of insecure randomness (random.random() for security-sensitive use),MEDIUM,Use secrets module or os.urandom for cryptographic randomness.",
+      "rule_id": "R012",
+      "rule_desc": "Use of insecure randomness (random.random() for security-sensitive use)",
+      "severity": "MEDIUM",
+      "suggestion": "Use secrets module or os.urandom for cryptographic randomness."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 44,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,7,\"\"\"snippet\"\": \"\"description=\\\"\"Use of insecure randomness (random.random() for security-sensitive use)\\\"\",\"\",\",R012,Use of insecure randomness (random.random() for security-sensitive use),MEDIUM,Use secrets module or os.urandom for cryptographic randomness.",
+      "rule_id": "R012",
+      "rule_desc": "Use of insecure randomness (random.random() for security-sensitive use)",
+      "severity": "MEDIUM",
+      "suggestion": "Use secrets module or os.urandom for cryptographic randomness."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 43,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,9,\"\"\"rule_desc\"\": \"\"Use of insecure randomness (random.random() for security-sensitive use)\"\",\",R012,Use of insecure randomness (random.random() for security-sensitive use),MEDIUM,Use secrets module or os.urandom for cryptographic randomness.",
+      "rule_id": "R012",
+      "rule_desc": "Use of insecure randomness (random.random() for security-sensitive use)",
+      "severity": "MEDIUM",
+      "suggestion": "Use secrets module or os.urandom for cryptographic randomness."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 43,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,9,\"\"\"rule_desc\"\": \"\"Use of insecure randomness (random.random() for security-sensitive use)\"\",\",R012,Use of insecure randomness (random.random() for security-sensitive use),MEDIUM,Use secrets module or os.urandom for cryptographic randomness.",
+      "rule_id": "R012",
+      "rule_desc": "Use of insecure randomness (random.random() for security-sensitive use)",
+      "severity": "MEDIUM",
+      "suggestion": "Use secrets module or os.urandom for cryptographic randomness."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 42,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,16,\"\"\"snippet\"\": \"\"pattern=r\\\"\"http://[^\\\\s'\\\\\\\"\"<>]+\\\"\",\"\",\",R009,Use of HTTP (not HTTPS) in URLs,MEDIUM,Prefer HTTPS URLs; avoid sending secrets over HTTP.",
+      "rule_id": "R009",
+      "rule_desc": "Use of HTTP (not HTTPS) in URLs",
+      "severity": "MEDIUM",
+      "suggestion": "Prefer HTTPS URLs; avoid sending secrets over HTTP."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 41,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 41,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 41,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 41,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 41,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 41,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 40,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 40,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 40,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 40,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 40,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 40,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 39,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 39,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 39,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 39,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 39,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 39,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 38,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 38,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 38,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 38,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 38,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 38,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,25,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 37,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,27,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 37,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,27,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 37,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,27,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 37,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,27,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 36,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,27,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 36,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,27,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 36,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,27,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 36,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,27,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 35,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 35,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 35,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 35,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 35,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 35,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 34,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 34,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 34,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 34,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 34,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 34,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 33,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 33,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 33,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 33,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 33,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 33,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 32,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 32,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 32,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 32,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 32,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 32,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,34,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 31,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,36,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 31,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,36,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 31,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,36,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 31,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,36,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 30,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,36,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 30,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,36,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 30,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,36,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 30,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,36,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 29,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 29,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 29,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 29,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 29,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 29,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 28,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 28,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 28,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 28,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 28,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 28,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 27,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 27,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 27,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 27,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 27,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 27,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 26,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 26,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 26,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 26,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 26,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 26,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,43,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 25,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,45,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 25,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,45,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 25,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,45,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 25,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,45,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 24,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,45,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 24,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,45,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 24,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,45,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 24,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,45,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 23,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 23,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 23,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 23,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 23,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 23,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 22,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 22,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 22,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 22,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 22,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 22,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 21,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 21,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 21,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 21,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 21,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 21,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 20,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 20,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 20,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 20,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 20,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 20,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,52,\"\"\"snippet\"\": \"\"pattern=r\\\"\"\\\\b(md5|sha1|unhexlify\\\\(|hashlib\\\\.(md5|sha1))\\\\b\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 19,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,54,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 19,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,54,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 19,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,54,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 19,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,54,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 18,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,54,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 18,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,54,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 18,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,54,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 18,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,54,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 17,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,61,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 17,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,61,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 17,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,61,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 17,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,61,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 16,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,61,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 16,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,61,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 16,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,61,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 16,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,61,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 15,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,63,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 15,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,63,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 15,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,63,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 15,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,63,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 14,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,63,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 14,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,63,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 14,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,63,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 14,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,63,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 13,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,70,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 13,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,70,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 13,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,70,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 13,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,70,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 12,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,70,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 12,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,70,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 12,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,70,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 12,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,70,\"\"\"snippet\"\": \"\"description=\\\"\"Use of weak hashing algorithms (MD5/SHA1)\\\"\",\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 11,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,72,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 11,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,72,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 11,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,72,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 11,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,72,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 10,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,72,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 10,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,72,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 10,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,72,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 10,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,72,\"\"\"rule_desc\"\": \"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 9,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,89,\"description=\"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 9,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,89,\"description=\"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 9,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,89,\"description=\"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 9,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,89,\"description=\"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 8,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,89,\"description=\"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 8,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,89,\"description=\"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 8,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,89,\"description=\"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 8,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,89,\"description=\"\"Use of weak hashing algorithms (MD5/SHA1)\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 7,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 7,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 7,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 7,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 7,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 7,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 6,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 6,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 6,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 6,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 6,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 6,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 5,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 5,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 5,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 5,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 5,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 5,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 4,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 4,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 4,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 4,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 4,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 4,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,91,\"pattern=r\"\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\"\",\",R007,Use of weak hashing algorithms (MD5/SHA1),MEDIUM,Use SHA-256 or stronger & use HMAC when appropriate.",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 3,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,105,\"pattern=r\"\"http://[^\\s'\\\"\"<>]+\"\",\",R009,Use of HTTP (not HTTPS) in URLs,MEDIUM,Prefer HTTPS URLs; avoid sending secrets over HTTP.",
+      "rule_id": "R009",
+      "rule_desc": "Use of HTTP (not HTTPS) in URLs",
+      "severity": "MEDIUM",
+      "suggestion": "Prefer HTTPS URLs; avoid sending secrets over HTTP."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 2,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,124,\"description=\"\"Use of insecure randomness (random.random() for security-sensitive use)\"\",\",R012,Use of insecure randomness (random.random() for security-sensitive use),MEDIUM,Use secrets module or os.urandom for cryptographic randomness.",
+      "rule_id": "R012",
+      "rule_desc": "Use of insecure randomness (random.random() for security-sensitive use)",
+      "severity": "MEDIUM",
+      "suggestion": "Use secrets module or os.urandom for cryptographic randomness."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 2,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,124,\"description=\"\"Use of insecure randomness (random.random() for security-sensitive use)\"\",\",R012,Use of insecure randomness (random.random() for security-sensitive use),MEDIUM,Use secrets module or os.urandom for cryptographic randomness.",
+      "rule_id": "R012",
+      "rule_desc": "Use of insecure randomness (random.random() for security-sensitive use)",
+      "severity": "MEDIUM",
+      "suggestion": "Use secrets module or os.urandom for cryptographic randomness."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 221,
+      "snippet": "# detect pickle.load(s)",
+      "rule_id": "R004",
+      "rule_desc": "pickle.loads or insecure deserialization (Python)",
+      "severity": "HIGH",
+      "suggestion": "Avoid untrusted pickle data; use safer serialization formats (JSON)."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 217,
+      "snippet": "rule_desc=\"Use of eval/exec (AST detected)\",",
+      "rule_id": "R003",
+      "rule_desc": "Use of eval or exec (Python)",
+      "severity": "HIGH",
+      "suggestion": "Avoid eval/exec; use safer parsing or literal_eval."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 98,
+      "snippet": "pattern=r\"(SELECT|INSERT|UPDATE|DELETE).{0,200}(\\+|%s|\\%|\\{\\s*[^}]+\\s*\\})\",",
+      "rule_id": "R008",
+      "rule_desc": "SQL-like string concatenation (possible SQL injection)",
+      "severity": "HIGH",
+      "suggestion": "Use parameterized queries / prepared statements instead of string concatenation."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 82,
+      "snippet": "description=\"HTTP request with verify=False (insecure TLS validation)\",",
+      "rule_id": "R006",
+      "rule_desc": "HTTP request with verify=False (insecure TLS validation)",
+      "severity": "HIGH",
+      "suggestion": "Do not disable TLS verification in production."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\vuln_scanner.py",
+      "line_no": 59,
+      "snippet": "description=\"Use of eval or exec (Python)\",",
+      "rule_id": "R003",
+      "rule_desc": "Use of eval or exec (Python)",
+      "severity": "HIGH",
+      "suggestion": "Avoid eval/exec; use safer parsing or literal_eval."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 108,
+      "snippet": "\"rule_desc\": \"HTTP request with verify=False (insecure TLS validation)\",",
+      "rule_id": "R006",
+      "rule_desc": "HTTP request with verify=False (insecure TLS validation)",
+      "severity": "HIGH",
+      "suggestion": "Do not disable TLS verification in production."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 106,
+      "snippet": "\"snippet\": \"description=\\\"HTTP request with verify=False (insecure TLS validation)\\\",\",",
+      "rule_id": "R006",
+      "rule_desc": "HTTP request with verify=False (insecure TLS validation)",
+      "severity": "HIGH",
+      "suggestion": "Do not disable TLS verification in production."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.json",
+      "line_no": 97,
+      "snippet": "\"snippet\": \"pattern=r\\\"(SELECT|INSERT|UPDATE|DELETE).{0,200}(\\\\+|%s|\\\\%|\\\\{\\\\s*[^}]+\\\\s*\\\\})\\\",\",",
+      "rule_id": "R008",
+      "rule_desc": "SQL-like string concatenation (possible SQL injection)",
+      "severity": "HIGH",
+      "suggestion": "Use parameterized queries / prepared statements instead of string concatenation."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 52,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,97,\"\"\"snippet\"\": \"\"pattern=r\\\"\"(SELECT|INSERT|UPDATE|DELETE).{0,200}(\\\\+|%s|\\\\%|\\\\{\\\\s*[^}]+\\\\s*\\\\})\\\"\",\"\",\",R008,SQL-like string concatenation (possible SQL injection),HIGH,Use parameterized queries / prepared statements instead of string concatenation.",
+      "rule_id": "R008",
+      "rule_desc": "SQL-like string concatenation (possible SQL injection)",
+      "severity": "HIGH",
+      "suggestion": "Use parameterized queries / prepared statements instead of string concatenation."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 51,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,106,\"\"\"snippet\"\": \"\"description=\\\"\"HTTP request with verify=False (insecure TLS validation)\\\"\",\"\",\",R006,HTTP request with verify=False (insecure TLS validation),HIGH,Do not disable TLS verification in production.",
+      "rule_id": "R006",
+      "rule_desc": "HTTP request with verify=False (insecure TLS validation)",
+      "severity": "HIGH",
+      "suggestion": "Do not disable TLS verification in production."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 51,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,106,\"\"\"snippet\"\": \"\"description=\\\"\"HTTP request with verify=False (insecure TLS validation)\\\"\",\"\",\",R006,HTTP request with verify=False (insecure TLS validation),HIGH,Do not disable TLS verification in production.",
+      "rule_id": "R006",
+      "rule_desc": "HTTP request with verify=False (insecure TLS validation)",
+      "severity": "HIGH",
+      "suggestion": "Do not disable TLS verification in production."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 50,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,108,\"\"\"rule_desc\"\": \"\"HTTP request with verify=False (insecure TLS validation)\"\",\",R006,HTTP request with verify=False (insecure TLS validation),HIGH,Do not disable TLS verification in production.",
+      "rule_id": "R006",
+      "rule_desc": "HTTP request with verify=False (insecure TLS validation)",
+      "severity": "HIGH",
+      "suggestion": "Do not disable TLS verification in production."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 50,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\report.json,108,\"\"\"rule_desc\"\": \"\"HTTP request with verify=False (insecure TLS validation)\"\",\",R006,HTTP request with verify=False (insecure TLS validation),HIGH,Do not disable TLS verification in production.",
+      "rule_id": "R006",
+      "rule_desc": "HTTP request with verify=False (insecure TLS validation)",
+      "severity": "HIGH",
+      "suggestion": "Do not disable TLS verification in production."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 48,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,82,\"description=\"\"HTTP request with verify=False (insecure TLS validation)\"\",\",R006,HTTP request with verify=False (insecure TLS validation),HIGH,Do not disable TLS verification in production.",
+      "rule_id": "R006",
+      "rule_desc": "HTTP request with verify=False (insecure TLS validation)",
+      "severity": "HIGH",
+      "suggestion": "Do not disable TLS verification in production."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 48,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,82,\"description=\"\"HTTP request with verify=False (insecure TLS validation)\"\",\",R006,HTTP request with verify=False (insecure TLS validation),HIGH,Do not disable TLS verification in production.",
+      "rule_id": "R006",
+      "rule_desc": "HTTP request with verify=False (insecure TLS validation)",
+      "severity": "HIGH",
+      "suggestion": "Do not disable TLS verification in production."
+    },
+    {
+      "file": "C:\\Users\\abhay\\Downloads\\dsp\\lab4\\lab4\\report.csv",
+      "line_no": 47,
+      "snippet": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py,98,\"pattern=r\"\"(SELECT|INSERT|UPDATE|DELETE).{0,200}(\\+|%s|\\%|\\{\\s*[^}]+\\s*\\})\"\",\",R008,SQL-like string concatenation (possible SQL injection),HIGH,Use parameterized queries / prepared statements instead of string concatenation.",
+      "rule_id": "R008",
+      "rule_desc": "SQL-like string concatenation (possible SQL injection)",
+      "severity": "HIGH",
+      "suggestion": "Use parameterized queries / prepared statements instead of string concatenation."
+    }
+  ]
+}

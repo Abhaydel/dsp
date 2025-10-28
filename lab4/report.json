@@ -1,0 +1,122 @@
+{
+  "scanned_at": "2025-09-09T14:31:19.192201Z",
+  "findings": [
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 124,
+      "snippet": "description=\"Use of insecure randomness (random.random() for security-sensitive use)\",",
+      "rule_id": "R012",
+      "rule_desc": "Use of insecure randomness (random.random() for security-sensitive use)",
+      "severity": "MEDIUM",
+      "suggestion": "Use secrets module or os.urandom for cryptographic randomness."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 105,
+      "snippet": "pattern=r\"http://[^\\s'\\\"<>]+\",",
+      "rule_id": "R009",
+      "rule_desc": "Use of HTTP (not HTTPS) in URLs",
+      "severity": "MEDIUM",
+      "suggestion": "Prefer HTTPS URLs; avoid sending secrets over HTTP."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 91,
+      "snippet": "pattern=r\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 91,
+      "snippet": "pattern=r\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 91,
+      "snippet": "pattern=r\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 91,
+      "snippet": "pattern=r\"\\b(md5|sha1|unhexlify\\(|hashlib\\.(md5|sha1))\\b\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 89,
+      "snippet": "description=\"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 89,
+      "snippet": "description=\"Use of weak hashing algorithms (MD5/SHA1)\",",
+      "rule_id": "R007",
+      "rule_desc": "Use of weak hashing algorithms (MD5/SHA1)",
+      "severity": "MEDIUM",
+      "suggestion": "Use SHA-256 or stronger & use HMAC when appropriate."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 221,
+      "snippet": "# detect pickle.load(s)",
+      "rule_id": "R004",
+      "rule_desc": "pickle.loads or insecure deserialization (Python)",
+      "severity": "HIGH",
+      "suggestion": "Avoid untrusted pickle data; use safer serialization formats (JSON)."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 217,
+      "snippet": "rule_desc=\"Use of eval/exec (AST detected)\",",
+      "rule_id": "R003",
+      "rule_desc": "Use of eval or exec (Python)",
+      "severity": "HIGH",
+      "suggestion": "Avoid eval/exec; use safer parsing or literal_eval."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 98,
+      "snippet": "pattern=r\"(SELECT|INSERT|UPDATE|DELETE).{0,200}(\\+|%s|\\%|\\{\\s*[^}]+\\s*\\})\",",
+      "rule_id": "R008",
+      "rule_desc": "SQL-like string concatenation (possible SQL injection)",
+      "severity": "HIGH",
+      "suggestion": "Use parameterized queries / prepared statements instead of string concatenation."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 82,
+      "snippet": "description=\"HTTP request with verify=False (insecure TLS validation)\",",
+      "rule_id": "R006",
+      "rule_desc": "HTTP request with verify=False (insecure TLS validation)",
+      "severity": "HIGH",
+      "suggestion": "Do not disable TLS verification in production."
+    },
+    {
+      "file": "D:\\Samarth\\DSCE\\Semester-7\\DSP\\lab4\\vuln_scanner.py",
+      "line_no": 59,
+      "snippet": "description=\"Use of eval or exec (Python)\",",
+      "rule_id": "R003",
+      "rule_desc": "Use of eval or exec (Python)",
+      "severity": "HIGH",
+      "suggestion": "Avoid eval/exec; use safer parsing or literal_eval."
+    }
+  ]
+}
